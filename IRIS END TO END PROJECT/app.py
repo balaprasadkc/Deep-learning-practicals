@@ -66,7 +66,7 @@ st.subheader('RESULTS FOR THE ABOVE INPUTS ARE : ')
 # PREDICTING RESULTS ON THE WEB APP AFTER SUBMIT BUTTON IS PRESSED
 if submit:
     # getting pre path and model path
-    pre_path = 'IRIS END TO END PROJECT\preprocessor.pkl'
+    pre_path = 'IRIS END TO END PROJECT/preprocessor.pkl'
     model_path = 'IRIS END TO END PROJECT\model.pkl'
 
     # getting the predictions along with probability
