@@ -17,7 +17,7 @@ st.title("{ IRIS END TO END PROJECT BY BALAPRASAD KC }")
 
 
 # ADDING A SUBHEADER ASKING FOR VALUE INPUT
-st.subheader('INPUT ANY VALUE BELOW')
+st.subheader('INPUT ANY VALUE BELOW : ')
 
 
 
@@ -77,7 +77,7 @@ if submit:
     pred, max_prob = predict_species(pre_path, model_path)
 
     # printing the results
-    st.subheader(f'predicted species is {pred[0]}')
+    st.subheader(f'{pred[0]} is the predicted species  ')
     st.subheader(f'probability of prediction is {max_prob:.4f}')
 
     # showing probability in progress bar
