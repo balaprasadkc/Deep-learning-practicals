@@ -16,6 +16,11 @@ st.title("{ IRIS END TO END PROJECT BY BALAPRASAD KC }")
 
 
 
+# ADDING A SUBHEADER ASKING FOR VALUE INPUT
+st.subheader('INPUT ANY VALUE ')
+
+
+
 # TAKING SEPAL LENGTH , SEPAL WIDTH , PETAL LENGTH , PETAL WIDTH AS INPUT
 sep_len = st.number_input('SEPAL LENGTH : ', min_value=0.00, step=0.01 )
 sep_wid = st.number_input('SEPAL WIDTH : ', min_value=0.00, step=0.01)
